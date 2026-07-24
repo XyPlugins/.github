@@ -20,11 +20,4 @@ XY系列插件是由Ai全面编写最后并适配1.12.2版本RPG服务器的一�
 
 如果你的使用习惯和我类似 那你会很快上手并且使用这些插件
 
-祝你开服顺利
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+------>祝你开服顺利
