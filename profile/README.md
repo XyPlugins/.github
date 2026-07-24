@@ -1,37 +1,26 @@
-# XyCore 0.3.3
+# XY系列插件
 
-XyCore 是一款面向 `Paper 1.12.2 build 1620` 的 RPG/MMO 服务器底层核心插件。
+XY系列插件是由Ai全面编写最后并适配1.12.2版本RPG服务器的一系列插件
 
-它的定位不是把所有玩法都塞进 Core，而是给后续的 `XyJob`、`XyForge`、符文、职业、锻造、活动等插件提供统一、稳定、可复用的底层服务。
+它将包含核心/锻造/强化/任务视图/灵魂空间/职业/等等一系列配套插件
 
-当前设计为只安装在 RPG 主服；Velocity 登录服只做中转，不需要安装 XyCore。
+该仓库设立初期只是为了让Ai更好的读取代码并且维护
 
-## Core 负责什么
+如果你刚好找到了这个仓库或者从某渠道来到了这里 
 
-- 玩家数据会话与模块数据容器，供 XyJob、XyForge 和后续 Xy 系列插件使用。
-- YML、SQLite、MySQL/MariaDB 三种数据存储。
-- JDBC 存储使用 HikariCP 数据库连接池。
-- Vault 经济接口桥接。
-- PlaceholderAPI 正式新版变量扩展与动态变量命名空间。
-- AttributePlus 属性读取桥接与属性源直接写入/移除桥接。
-- DragonCore GUI、按键、变量、客户端数据包桥接。
-- 原版物品与 MythicMobs 物品库软桥接。
-- 可开关的内置模块系统。
+请你默默使用切勿外传
 
-职业等级、职业经验、锻造配方、技能、专精徽章、符文雕刻等具体玩法，建议交给独立插件实现。XyCore 只提供底座、接口和公共能力。
+如果你想找到我提交BUG或者想要更新某个功能
 
-## 快速使用
+请添加QQ群:484612573  并@Xy主理人
 
-1. 将 `XyCore-0.3.3.jar` 放入 `plugins` 文件夹。
-2. 启动服务器生成 `plugins/XyCore/config.yml`。
-3. 在 `config.yml` 中开启需要的模块。
-4. 使用 `/xycore reload` 或重启服务器。
-5. 开启后的模块配置会生成在 `plugins/XyCore/modules/`。
+所有插件都有详细的更新日志和使用说明
 
-第一次加载时，默认只生成主配置 `config.yml`。模块配置不会提前生成，只有模块开关打开后才会创建。
-<!--
+有的插件只有源码没有成品jar请你自己构建一下
 
-**Here are some ideas to get you started:**
+如果你的使用习惯和我类似 那你会很快上手并且使用这些插件
+
+祝你开服顺利
 
 🙋‍♀️ A short introduction - what is your organization all about?
 🌈 Contribution guidelines - how can the community get involved?
